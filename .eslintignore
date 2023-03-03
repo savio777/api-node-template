@@ -1,0 +1,4 @@
+/dist
+/coverage
+/coverageCompose
+jest.config.js

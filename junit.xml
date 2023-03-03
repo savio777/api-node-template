@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="8" errors="0" time="5.779">
+  <testsuite name="/exemplos/create" errors="0" failures="2" skipped="0" timestamp="2023-03-03T07:02:52" time="5.286" tests="3">
+    <testcase classname="/exemplos/create ...valida criação de um exemplo" name="/exemplos/create ...valida criação de um exemplo" time="0.055">
+      <failure>Error: expected 200 &quot;OK&quot;, got 500 &quot;Internal Server Error&quot;
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.create.test.ts:15:8)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:285:26)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+    <testcase classname="/exemplos/create ...valida obrigatoriedade do atributo &gt;&gt;&gt;descricao&lt;&lt;&lt;" name="/exemplos/create ...valida obrigatoriedade do atributo &gt;&gt;&gt;descricao&lt;&lt;&lt;" time="0.011">
+    </testcase>
+    <testcase classname="/exemplos/create ...valida obrigatoriedade do usuário autenticado" name="/exemplos/create ...valida obrigatoriedade do usuário autenticado" time="0.002">
+      <failure>Error: expected 401 &quot;Unauthorized&quot;, got 400 &quot;Bad Request&quot;
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.create.test.ts:26:50)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:285:26)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="/exemplos/find" errors="0" failures="2" skipped="0" timestamp="2023-03-03T07:02:52" time="5.35" tests="3">
+    <testcase classname="/exemplos/find ...valida estrutura base de retorno" name="/exemplos/find ...valida estrutura base de retorno" time="0.074">
+      <failure>Error: expected 200 &quot;OK&quot;, got 500 &quot;Internal Server Error&quot;
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:16:8
+    at Generator.next (&lt;anonymous&gt;)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:9:56)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+    <testcase classname="/exemplos/find ...valida consulta de um único exemplo" name="/exemplos/find ...valida consulta de um único exemplo" time="0.012">
+      <failure>Error: expected 200 &quot;OK&quot;, got 500 &quot;Internal Server Error&quot;
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:35:8
+    at Generator.next (&lt;anonymous&gt;)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.find.test.ts:28:59)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+    <testcase classname="/exemplos/find ...valida resultado de exemplo não encontrado" name="/exemplos/find ...valida resultado de exemplo não encontrado" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="/exemplos/update" errors="0" failures="2" skipped="0" timestamp="2023-03-03T07:02:52" time="5.396" tests="2">
+    <testcase classname="/exemplos/update ...valida atualização de um exemplo" name="/exemplos/update ...valida atualização de um exemplo" time="0.05">
+      <failure>Error: expected 200 &quot;OK&quot;, got 500 &quot;Internal Server Error&quot;
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.update.test.ts:16:8
+    at Generator.next (&lt;anonymous&gt;)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.update.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.update.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.update.test.ts:9:56)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+    <testcase classname="/exemplos/update ...valida exemplo não encontrado" name="/exemplos/update ...valida exemplo não encontrado" time="0.013">
+      <failure>Error: expected 400 &quot;Bad Request&quot;, got 500 &quot;Internal Server Error&quot;
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.update.test.ts:34:8)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:285:26)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="/exemplos/remove" errors="0" failures="2" skipped="0" timestamp="2023-03-03T07:02:52" time="5.475" tests="2">
+    <testcase classname="/exemplos/remove ...valida a deleção de um exemplo" name="/exemplos/remove ...valida a deleção de um exemplo" time="0.077">
+      <failure>Error: expected 200 &quot;OK&quot;, got 500 &quot;Internal Server Error&quot;
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.remove.test.ts:16:8
+    at Generator.next (&lt;anonymous&gt;)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.remove.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.remove.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.remove.test.ts:9:54)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+    <testcase classname="/exemplos/remove ...valida exemplo não encontrado" name="/exemplos/remove ...valida exemplo não encontrado" time="0.023">
+      <failure>Error: expected 400 &quot;Bad Request&quot;, got 500 &quot;Internal Server Error&quot;
+    at Object.&lt;anonymous&gt; (/home/savio777/Documentos/builtcode/templates/api_exemplo/__tests__/exemplo/exemplo.remove.test.ts:28:8)
+    at Promise.then.completed (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:285:26)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:248:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:184:3)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:86:9)
+    at _runTestsForDescribeBlock (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:81:9)
+    at run (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/run.js:26:3)
+    at runAndTransformResultsToJestFormat (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:120:21)
+    at jestAdapter (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/jest-runner/build/testWorker.js:106:12)
+----
+    at Test._assertStatus (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:252:14)
+    at /home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:308:13
+    at Test._assertFunction (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:285:13)
+    at Test.assert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:164:23)
+    at Server.localAssert (/home/savio777/Documentos/builtcode/templates/api_exemplo/node_modules/supertest/lib/test.js:120:14)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

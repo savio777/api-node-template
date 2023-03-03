@@ -1,0 +1,31 @@
+module.exports = {
+    preset: 'ts-jest',
+    setupFiles: [],
+    forceExit: true,
+    clearMocks: true,
+    collectCoverage: true,
+    collectCoverageFrom: ['src/**'],
+    coverageDirectory: 'coverage',
+    coverageProvider: 'v8',
+    coveragePathIgnorePatterns: [
+        'src/index.ts',
+        'src/server.ts',
+        'src/@types',
+        'src/decorators',
+        'src/middlewares/keycloak.middle.ts',
+        'src/utils/appInsightsMetrics.ts',
+        'src/utils/authenticate.ts',
+        'src/utils/swagger.ts',
+        'src/database',
+    ],
+    coverageThreshold: {
+        global: {
+            branches: 60,
+            functions: 60,
+            lines: 60,
+            statements: 60,
+        },
+    },
+    coverageReporters: ['lcov', 'cobertura', 'text'],
+    reporters: ['default', 'jest-junit'],
+};
