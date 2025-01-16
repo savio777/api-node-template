@@ -3,7 +3,7 @@ import swaggerJSDoc from 'swagger-jsdoc';
 export const exemploSchemaSwagger: {
   [key: string]: swaggerJSDoc.Reference | swaggerJSDoc.Schema;
 } = {
-  Exemplo: {
+  Example: {
     type: 'object',
     properties: {
       id: {
@@ -30,7 +30,7 @@ export const exemploSchemaSwagger: {
 export const exemploPathsSwagger: swaggerJSDoc.Paths = {
   '/api/v1/exemplos': {
     post: {
-      tags: ['Exemplo'],
+      tags: ['Example'],
       security: [
         {
           BarerAuth: [],
@@ -54,7 +54,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
           content: {
             'application/json': {
               schema: {
-                $ref: '#/components/schemas/Exemplo',
+                $ref: '#/components/schemas/Example',
               },
             },
           },
@@ -65,7 +65,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
       },
     },
     get: {
-      tags: ['Exemplo'],
+      tags: ['Example'],
       security: [
         {
           BarerAuth: [],
@@ -104,7 +104,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
               result: {
                 type: 'array',
                 items: {
-                  $ref: '#/components/schemas/Exemplo',
+                  $ref: '#/components/schemas/Example',
                 },
               },
               take: {
@@ -134,7 +134,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
   },
   '/api/v1/exemplos/{id}': {
     put: {
-      tags: ['Exemplo'],
+      tags: ['Example'],
       security: [
         {
           BarerAuth: [],
@@ -170,7 +170,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
           content: {
             'application/json': {
               schema: {
-                $ref: '#/components/schemas/Exemplo',
+                $ref: '#/components/schemas/Example',
               },
             },
           },
@@ -181,7 +181,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
       },
     },
     delete: {
-      tags: ['Exemplo'],
+      tags: ['Example'],
       security: [
         {
           BarerAuth: [],
@@ -207,7 +207,7 @@ export const exemploPathsSwagger: swaggerJSDoc.Paths = {
           content: {
             'application/json': {
               schema: {
-                $ref: '#/components/schemas/Exemplo',
+                $ref: '#/components/schemas/Example',
               },
             },
           },

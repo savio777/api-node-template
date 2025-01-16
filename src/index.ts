@@ -10,8 +10,6 @@ if (process.env.NODE_ENV !== 'test') {
   server.start();
 }
 
-import './app/exemplo/exemplo.controller';
+import './app/example/exemple.controller';
 
 server.use(errorHandling);
-
-import './database/data-source';

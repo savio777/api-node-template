@@ -35,7 +35,7 @@ describe('/exemplos/update', function () {
         400,
         {
           status: 400,
-          message: 'Exemplo não encontrado',
+          message: 'Example não encontrado',
         },
         done,
       );

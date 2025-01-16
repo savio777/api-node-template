@@ -9,7 +9,7 @@ import {
 import { v4 as uuid } from 'uuid';
 
 @Entity('exemplos')
-export class Exemplo {
+export class Example {
   @PrimaryColumn()
   id: string;
 

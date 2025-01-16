@@ -9,21 +9,22 @@
     "build": "rm -rf ./dist && tsc --build tsconfig.build.json",
     "lint": "eslint . && yarn tsc --noEmit",
     "test": "dotenv -e .env jest --runInBand",
-    "migration": "dotenv -e .env -- ts-node ./node_modules/typeorm/cli.js migration:run -d ./src/database/data-source.ts",
-    "migration:rollback": "dotenv -e .env -- ts-node ./node_modules/typeorm/cli.js migration:revert -d ./src/database/data-source.ts",
-    "ex:migration:create": "dotenv -e .env -- ts-node ./node_modules/typeorm/cli.js migration:create ./src/database/migrations/CreateExemplo -d ./src/database/data-source.ts"
+    "ex:migration:create": "dotenv -e .env -- ts-node ./node_modules/typeorm/cli.js migration:create ./src/database/migrations/CreateExemplo -d ./src/database/data-source.ts",
+    "run:migrate-prisma": "npx prisma migrate dev",
+    "init:prisma-studio": "npx prisma studio"
   },
   "dependencies": {
+    "@prisma/client": "6.2.1",
     "axios": "^1.3.4",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "jwk-to-pem": "^2.0.5",
+    "prisma": "^6.2.1",
     "supertest": "^6.3.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.2",
-    "typeorm": "^0.3.12",
     "uuid": "^9.0.0",
     "yup": "^1.0.2"
   },

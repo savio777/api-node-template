@@ -1,8 +1,8 @@
 import { boolean, InferType, number, object, string } from 'yup';
 
-export type IFindAllExemploDto = InferType<typeof FindAllExemploDto>;
+export type IFindAllExempleDto = InferType<typeof FindAllExempleDto>;
 
-export const FindAllExemploDto = object({
+export const FindAllExempleDto = object({
   page: number().optional().default(1),
   take: number()
     .optional()
