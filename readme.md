@@ -1,5 +1,10 @@
 # api-node-template:
 
+#### goals:
+- [x] migrate typeorm to prisma
+- [ ] make app to user entity
+- [ ] make auth jwt to user
+
 #### docker:
 
 ```sh
